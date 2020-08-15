@@ -1,1 +1,42 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    
+    background-color: #28a1d7;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
 
+.logo{
+    
+}
+h1{
+    
+    width: 30%;
+    font-size: 50px;
+    
+}
+nav{
+   
+    width: 50%;
+ 
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration-style: none;
+
+}
+li{
+    list-style-type: none;
+    
+}
+li:hover{
+    font-size: 20px;
+    color: aliceblue;
+}

@@ -2,30 +2,55 @@
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
+    background-color: #3C707B;
+}
+
+.jumbotron{
+    border: 2px solid orange;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.buttonDiv{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header{
-    
-    background-color: #28a1d7;
+    background-color: #3C707B;
     height: 10vh;
     display: flex;
     justify-content: space-around; 
     align-items: center;
 }
 
-.logo{
+#quoteBtn {
+    border-radius: 10px ;
+    width: 200px;
+    height: 50px;
+    
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: #62CEE5;
+    
     
 }
+#quoteBtn:hover{
+    color: antiquewhite;
+}
+
 h1{
-    
+
     width: 30%;
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
 nav{
-   
     width: 50%;
- 
 }
+
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -34,9 +59,31 @@ ul{
 }
 li{
     list-style-type: none;
+    font-size: 1.5em;
     
 }
 li:hover{
-    font-size: 20px;
+    font-size: 30px;
     color: aliceblue;
+}
+#leftArrow{
+    position: relative;
+    top: -40%;
+    right: -50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#rightArrow{
+    position: relative;
+    top: -40%;
+    right: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#mainPics{
+    border: 1px solid green;
+    height: 396px;
+    width: 918px;
+    
 }
